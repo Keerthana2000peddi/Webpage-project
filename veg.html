@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetable Mart</title>
+    <link rel="stylesheet" href="veg.css">
+</head>
+<body>
+    <header>
+    <h1>Vegetable Mart</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Cart (<span id="cart-count">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="products">
+      <div class="product">
+        <img src="carrot.jpg" alt="Carrot">
+        <h3>Carrot</h3>
+        <p>$2.00</p>
+        <button class="add-to-cart" data-name="Carrot" data-price="2.00">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="broccoli.jpg" alt="Broccoli">
+        <h3>Broccoli</h3>
+        <p>$3.00</p>
+        <button class="add-to-cart" data-name="Broccoli" data-price="3.00">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="Beetroot.jpg" alt="Beetroot">
+        <h3>Beetroot</h3>
+        <p>$8.00</p>
+        <button class="add-to-cart" data-name="Broccoli" data-price="8.00">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="Cabbage.jpg" alt="Cabbage">
+        <h3>Cabbage</h3>
+        <p>$6.00</p>
+        <button class="add-to-cart" data-name="Broccoli" data-price="6.00">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="potato.jpg" alt="Potato">
+        <h3>Potato</h3>
+        <p>$4.00</p>
+        <button class="add-to-cart" data-name="Broccoli" data-price="4.00">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="spinach.jpg" alt="Spinach">
+        <h3>Spinach</h3>
+        <p>$5.00</p>
+        <button class="add-to-cart" data-name="Broccoli" data-price="5.00">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="Brinjal.jpg" alt="Brinjal">
+        <h3>Brinjal</h3>
+        <p>$5.00</p>
+        <button class="add-to-cart" data-name="Broccoli" data-price="5.00">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="Onion.jpg" alt="Onion">
+        <h3>Onion</h3>
+        <p>$4.00</p>
+        <button class="add-to-cart" data-name="Broccoli" data-price="4.00">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="Tomato.jpg" alt="Tomato">
+        <h3>Tomato</h3>
+        <p>$6.00</p>
+        <button class="add-to-cart" data-name="Broccoli" data-price="6.00">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="Lady's finger.jpg" alt="Lady's finger">
+        <h3>Lady's finger</h3>
+        <p>$8.00</p>
+        <button class="add-to-cart" data-name="Broccoli" data-price="8.00">Add to Cart</button>
+      </div>
+      </section>
+
+    <section class="cart">
+      <h2>Your Cart</h2>
+      <ul id="cart-items"></ul>
+      <p>Total: $<span id="total-price">0.00</span></p>
+      <button id="checkout">Checkout</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Vegetable Mart</p>
+  </footer>
+
+  <script src="veg.js"></script>
+</body>
+</html>
+    
+</body>
+</html>
